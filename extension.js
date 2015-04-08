@@ -55,7 +55,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "AnneBot",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
@@ -63,7 +63,7 @@
         cmdDeletion: true,
         chatLink: "https://rawgit.com/" + fork + "/basicBot/master/lang/en.json",
         maximumAfk: 120,
-        afkRemoval: true,
+        afkRemoval: false,
         maximumDc: 60,
         bouncerPlus: true,
         blacklistEnabled: true,
@@ -72,11 +72,11 @@
         maximumLocktime: 10,
         cycleGuard: true,
         maximumCycletime: 10,
-        voteSkip: false,
+        voteSkip: true,
         voteSkipLimit: 10,
         timeGuard: true,
-        maximumSongLength: 10,
-        autodisable: true,
+        maximumSongLength: 12,
+        autodisable: false,
         commandCooldown: 30,
         usercommandsEnabled: true,
         lockskipPosition: 3,
@@ -94,7 +94,7 @@
         motdEnabled: false,
         motdInterval: 5,
         motd: "Temporary Message of the Day",
-        filterChat: true,
+        filterChat: false,
         etaRestriction: false,
         welcome: true,
         opLink: null,
